@@ -19,3 +19,10 @@ g.allZapasy() - odohra sa cely turnaj az do konca
 
 V subore FIFAWorldRanking.py je na uplnom spodku zakomentovany ##g.allZapasy()
 Ak ho odkomentujete, tak automaticky po spusteni zbehne cely program sam.
+
+Pridane na zaklade review:
+pridane popisy v zapas.py a zapasVskupine.py
+na komunikaciu netreba editovat kod, normalne funguju prikazy g.posunOden() a g.allZapasy()
+pridana funkcia g.odohrajSkupiny, ktora pracuje nasledovne:
+do IDLE treba nakopirovat skupinu - t.j. pole1,pole2,...pole8
+a potom zavolat g.odohrajSkupiny(poleX) x-podla toho ktoru skupinu chceme aby sa odohrala
