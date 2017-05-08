@@ -13,6 +13,7 @@ class Zapas():
         vysledokA = randint(0,9)
         vysledokB = randint(0,9)
 
+        ## zapas je obycajne generovanie random vysledku od 0 po 9, to iste aj pre minuty
         if vysledokA == 0 and vysledokB == 0:
             print("Stav zapasu je 0:0")
             return (0,0)
