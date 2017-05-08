@@ -20,6 +20,7 @@ class zapasVskupine():
 		for i in self.pole:
 			self.dictTab[i] = 0
 
+        ## vola sa trieda zapas a odohra to zapas medzi dvoma v skupine
 	def posun(self):
 		if len(self.comb) == 0:
 			self.printujTabulku()
@@ -63,6 +64,8 @@ class zapasVskupine():
 
 
 
+pole1 = ["Slovensko", "Madarsko", "Ukrajina", "Polsko"]
+g = zapasVskupine(pole1)
 
 
 
